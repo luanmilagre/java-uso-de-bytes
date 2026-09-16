@@ -1,50 +1,50 @@
-# ☕ Tipos de Dados em Java
+# Avaliação de Satisfação em Java
 
-Projeto desenvolvido durante meus estudos de Java para praticar os tipos de dados primitivos e entender suas principais características.
-
-## 📚 O que foi praticado
-
-Neste projeto foram utilizados:
-
-- `byte` — 8 bits
-- `short` — 16 bits
-- `int` — 32 bits
-- `long` — 64 bits
-- `float` — 32 bits
-- `double` — 64 bits
-- `boolean` — representa `true` ou `false`
-- `char` — 16 bits
-
-## 💻 Exemplos utilizados
-
-O programa utiliza exemplos do dia a dia para representar cada tipo:
-
-- Idade
-- Ano
-- População de uma cidade
-- População mundial
-- Altura
-- Salário
-- Situação de estudante
-- Inicial do nome
+Exercício desenvolvido em Java para praticar **`switch expression`**, entrada de dados com `Scanner` e validação de valores utilizando `do...while`.
 
 ## 🎯 Objetivo
 
-Praticar a declaração de variáveis em Java e compreender como diferentes tipos de dados podem ser utilizados para armazenar diferentes informações.
+Receber um nível de satisfação informado pelo usuário, de **1 a 5**, e apresentar o feedback correspondente.
 
-## 🛠️ Tecnologias
+## 📋 Funcionamento
 
-- Java
-- Git
-- GitHub
+| Nível | Feedback           |
+| ----- | ------------------ |
+| 1     | Muito insatisfeito |
+| 2     | Insatisfeito       |
+| 3     | Neutro             |
+| 4     | Satisfeito         |
+| 5     | Muito satisfeito   |
 
-## ▶️ Como executar
+Caso o usuário informe um valor fora do intervalo de 1 a 5, o programa informa que a opção é inválida e solicita uma nova entrada.
 
-1. Tenha o Java instalado.
-2. Clone este repositório.
-3. Abra o projeto no seu editor ou IDE.
-4. Execute o arquivo `Main.java`.
+## 🧠 Conceitos praticados
 
-## 📌 Próximos passos
+* `Scanner`
+* Variáveis e tipos primitivos
+* `switch expression`
+* `case` com `->`
+* `default`
+* `do...while`
+* `if`
+* Operadores relacionais e lógicos
+* Validação de entrada
 
-Continuar evoluindo nos fundamentos de Java, avançando para estruturas de decisão, repetição, métodos, orientação a objetos e, posteriormente, Spring Boot.
+## 💻 Tecnologias
+
+* Java
+* Sublime Text
+
+## 📌 Exemplo
+
+```text
+Digite o nível de satisfação (entre 1 e 5):
+4
+
+A opção selecionada foi: 4
+O resultado da avaliação foi: Satisfeito
+```
+
+## 🚀 Sobre o exercício
+
+Este projeto faz parte dos meus estudos de Java, com foco na construção de lógica de programação e na prática dos recursos da linguagem através de pequenos exercícios.
